@@ -1,20 +1,4 @@
-from multiprocessing import process
-from re import M
-from typing import Counter
-import pandas as pd
-import requests
-from bs4 import BeautifulSoup
-import os
-import numpy as np
-from country_named_entity_recognition import find_countries
-import flickrapi
-from geopy.geocoders import Nominatim
-import json
-from tqdm import tqdm
-import networkx as nx
-from collections import Counter
 
-from dotenv import load_dotenv
 
 def get_data(filepath):
     current_path = os.getcwd()
