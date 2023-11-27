@@ -5,8 +5,8 @@ The folder 'datasets' contains all the datasets used in the project:
 - flicks: json files of information extracted by flicks platform (see code in *NomadListRecommender.ipynb*)
 - nomadlist: main dataset we used in the project which contains information regarding 730 cities provided by digital nomads
 
-The notebook **NomadListRecommender.ipynb** contains all the code of the recommendation system we have built and specifically it comprises:
+The notebook **NomadListRecommender.ipynb** contains all the code used to build the recommendation system and specifically it comprises:
 - retriving data
 - data processing and EDA
-- methodologies which comprends teh code to run clustering, similar items and minhashing
-- user recommendations which comprends collaborative filtering and matrix factorization
+- methodologies which comprends the implementation of clustering, similar items and minhashing tecniques 
+- user recommendations which comprends the implementation of collaborative filtering and matrix factorization
