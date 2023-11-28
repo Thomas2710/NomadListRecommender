@@ -10,3 +10,7 @@ The notebook **NomadListRecommender.ipynb** contains all the code used to build 
 - data processing and EDA
 - methodologies which comprends the implementation of clustering, similar items and minhashing tecniques 
 - user recommendations which comprends the implementation of collaborative filtering and matrix factorization
+
+# How to run
+To run the notebook, just download the folder and run *NomadListRecommender.ipynb*. 
+If you wish to download again flickr data, delete the content of all jsons files in /datasets/flickr and run the code again. Pls note that you also must have an API key and a secret provided by flickr stored in a .env file.
