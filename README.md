@@ -6,7 +6,7 @@ The folder 'datasets' contains all the datasets used in the project:
 - nomadlist: main dataset used in this project which contains information regarding 730 cities provided by digital nomads
 
 The notebook **NomadListRecommender.ipynb** contains all the code used to build the recommendation system and specifically it comprises:
-- retriving data
+- retrieving data
 - data processing and EDA
 - methodologies which comprends the implementation of clustering, similar items and minhashing tecniques 
 - user recommendations which comprends the implementation of collaborative filtering and matrix factorization
